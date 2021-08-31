@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/reset.css">
+    <link rel="stylesheet" href="/style/style.css">
+    <title>Car Rental</title>
+</head>
+<body>
+    <header>
+        <ul>
+        <li><img src="img/logo2.jpg" alt="logo2" id="rentCar"> </li>
+        <li><h1>Rent a Car</h1></li>
+    </ul>
+    </header>
+    <main>
+        <div id="container">
+            <form id="addForm" class="form-inline mb-3">
+                <label for="carName">Customer Name</label>
+                <input type="text" id="carName">
+                <label for="carmodel">Car Model</label>
+                <select id="carmodel" name="cars">
+                    <option value="bmw">bmw</option>
+                    <option value="ford">ford</option>
+                    <option value="kia">kia</option>
+                  </select>
+                <input type="submit" id="addForm" value="Submit">
+              </form>
+         <div id="carTable">
+            <!-- car table info -->
+         </div>
+        </div>
+    </main>
+
+    <footer>
+        301 Entrance Exam©
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>

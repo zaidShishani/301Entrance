@@ -1,0 +1,19 @@
+header ul {
+    background-color: rgb(36, 36, 36);;
+}
+
+header ul li{
+    display: inline-block;
+}
+header #rentCar{
+margin-left: 20px;
+ width: 200px;
+ height: 200px;
+}
+
+header h1 {
+    color: red;
+    font-size: 60px;
+    text-align: center;
+    
+}
